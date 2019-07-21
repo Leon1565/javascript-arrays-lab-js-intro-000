@@ -10,6 +10,6 @@ function destructivelyPrependKitten(name){
 function destructivelyRemoveLastKitten(){
   kittens.pop();
 }
-function destructivelyFirstKitten(){
+function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
