@@ -5,3 +5,4 @@ function destructivelyAppendKitten(kittens){
   kittens = [...kittens, "Ralph"];
   return kittens;
 }
+destructivelyAppendKitten(kittens);
